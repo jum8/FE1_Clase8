@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+
+h1 {
+    background-color: #c4c4c4;
+    color: #005677;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    background-color: #c4c4c4;
+    color: #005677;
+}
+
+.cabecera{
+    background-color: #c4c4c4;
+    color: #005677;
+    height: 60px;
+}
+
+
+#pie{
+    background-color: #005677;
+    color: #ffffff;
+}
+
+#logobatman{
+    align-items: center;
+}
+
+h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
+}
